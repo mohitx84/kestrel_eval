@@ -1,0 +1,18 @@
+KESTREL SERVICE-REQUEST ROUTING: CLASSIFICATION REPORT
+Selected Model: Combined Pipeline (Text + Structured) + Calibrated LinearSVC
+Validation Protocol: Temporal Holdout (Created >= 2026-04-01, N=2135)
+=====================================================================
+
+                       precision    recall  f1-score   support
+
+              Billing     0.9475    0.9819    0.9644       331
+Filters & Consumables     0.9247    0.9474    0.9359       285
+      Installs & Demo     0.9451    0.9739    0.9593       230
+       Product Advice     0.9261    0.9638    0.9446       221
+              Repairs     0.9845    0.9287    0.9558       617
+Returns & Replacement     0.9478    0.9365    0.9421       252
+      Warranty Claims     0.9307    0.9447    0.9377       199
+
+             accuracy                         0.9504      2135
+            macro avg     0.9438    0.9538    0.9485      2135
+         weighted avg     0.9512    0.9504    0.9504      2135

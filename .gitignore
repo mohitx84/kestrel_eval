@@ -1,0 +1,32 @@
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Data Privacy (Operations Policy §10 - Keep private customer data local)
+data/
+
+# Ensure critical deliverables are explicitly tracked
+!predictions.csv
+!memo.md
+!submission_form.md
+!requirements.txt
+!models/kestrel_routing_model.joblib
+!evidence/*

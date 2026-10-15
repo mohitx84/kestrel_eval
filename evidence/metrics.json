@@ -1,0 +1,46 @@
+{
+  "evaluation_target": "team_label (canonicalized to current 7 active teams)",
+  "validation_protocol": "Temporal Holdout (train < 2026-04-01, val >= 2026-04-01)",
+  "train_sample_size": 8687,
+  "val_sample_size": 2135,
+  "selected_model": "CalibratedLinearSVC_CombinedPipeline",
+  "accuracy": 0.9504,
+  "macro_f1": 0.9485,
+  "weighted_f1": 0.9504,
+  "majority_baseline_accuracy": 0.289,
+  "target_threshold": 0.9,
+  "target_achieved": true,
+  "performance_by_channel": {
+    "email": {
+      "samples": 228,
+      "accuracy": 0.943
+    },
+    "chat": {
+      "samples": 670,
+      "accuracy": 0.9463
+    },
+    "ivr": {
+      "samples": 579,
+      "accuracy": 0.9516
+    },
+    "whatsapp": {
+      "samples": 658,
+      "accuracy": 0.9559
+    }
+  },
+  "performance_by_source": {
+    "crm": {
+      "samples": 2135,
+      "accuracy": 0.9504
+    }
+  },
+  "per_class_f1": {
+    "Billing": 0.9644,
+    "Filters & Consumables": 0.9359,
+    "Installs & Demo": 0.9593,
+    "Product Advice": 0.9446,
+    "Repairs": 0.9558,
+    "Returns & Replacement": 0.9421,
+    "Warranty Claims": 0.9377
+  }
+}

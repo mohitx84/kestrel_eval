@@ -1,0 +1,18 @@
+{
+  "model_type": "CalibratedClassifierCV(LinearSVC)",
+  "pipeline": "TF-IDF(1,2) + OneHotEncoder -> CalibratedLinearSVC",
+  "classes": [
+    "Billing",
+    "Filters & Consumables",
+    "Installs & Demo",
+    "Product Advice",
+    "Repairs",
+    "Returns & Replacement",
+    "Warranty Claims"
+  ],
+  "n_train_samples": 10822,
+  "temporal_val_accuracy": 0.9504,
+  "temporal_val_macro_f1": 0.9485,
+  "target_threshold": 0.9,
+  "target_achieved": true
+}
